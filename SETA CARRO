@@ -1,0 +1,37 @@
+tinkercad update // C++ code
+//
+
+const int BTN1 = 0;
+int cond = 0;
+
+void setup()
+{
+pinMode(11, OUTPUT);
+pinMode(10, OUTPUT);
+pinMode(7, OUTPUT);
+pinMode(6, OUTPUT);
+pinMode(BTN1, INPUT);
+}
+
+void loop()
+{
+
+cond = digitalRead(BTN1);
+
+if (cond == LOW) {
+
+digitalWrite(11,HIGH);
+digitalWrite(10,HIGH);
+digitalWrite(7, LOW);
+digitalWrite(6, LOW);
+delay(500); // Wait for 500 millisecond(s)
+}
+
+if (BTN1 == LOW) {
+digitalWrite(11,LOW);
+digitalWrite(10,LOW);
+digitalWrite(7, HIGH);
+digitalWrite(6, HIGH);
+delay(500); // Wait for 500 millisecond(s)}
+}
+}
