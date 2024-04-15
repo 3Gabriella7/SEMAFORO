@@ -1,0 +1,65 @@
+tinkercad update // C++ code
+//
+void setup()
+{ pinMode(12, OUTPUT);//pedestre verm
+pinMode(11, OUTPUT);//pedestre verde
+pinMode(10, OUTPUT);
+pinMode(9, OUTPUT);
+pinMode(8, OUTPUT);
+pinMode(7, OUTPUT);
+pinMode(6, OUTPUT);
+pinMode(5, OUTPUT);
+pinMode(4, OUTPUT);//pedestre verd
+pinMode(3, OUTPUT);//pedestre verm
+
+}
+
+void loop()
+{ digitalWrite(11,HIGH);//pedestre verde
+digitalWrite(12,LOW);//pedestre vermelho
+digitalWrite(10,HIGH);//VERM
+digitalWrite(9, LOW);//AMAR
+digitalWrite(8, LOW);//VERD
+digitalWrite(7, LOW);//VERM
+digitalWrite(6, LOW);//AMAR
+digitalWrite(5, HIGH);//VERD
+digitalWrite(4,LOW);//pedestre verd
+digitalWrite(3,HIGH);//pedestre verm
+delay(5000); // Wait for 1000 millisecond(s)
+
+digitalWrite(11,HIGH);//pedestre verde
+digitalWrite(12,LOW);//pedestre vermelho
+digitalWrite(10,HIGH);//VERM
+digitalWrite(9, LOW);//AMAR
+digitalWrite(8, LOW);//VERD
+digitalWrite(7, LOW);//VERM
+digitalWrite(6, HIGH);//AMAR
+digitalWrite(5, LOW);//VERD
+digitalWrite(4,LOW);//pedestre verd
+digitalWrite(3,HIGH);//pedestre verm
+delay(5000); // Wait for 1000 millisecond(s)
+
+digitalWrite(11,LOW);//pedestre verde
+digitalWrite(12,HIGH);//pedestre vermelho
+digitalWrite(10,LOW);//VERM
+digitalWrite(9, LOW);//AMAR
+digitalWrite(8, HIGH);//VERD
+digitalWrite(7, HIGH);//VERM
+digitalWrite(6, LOW);//AMAR
+digitalWrite(5, LOW);//VERD
+digitalWrite(4,HIGH);//pedestre verd
+digitalWrite(3,LOW);//pedestre verm
+delay(5000); // Wait for 1000 millisecond(s)
+
+digitalWrite(11,LOW);//pedestre verde
+digitalWrite(12,HIGH);//pedestre vermelho
+digitalWrite(10,LOW);//VERM
+digitalWrite(9, HIGH);//AMAR
+digitalWrite(8, LOW);//VERD
+digitalWrite(7, HIGH);//VERM
+digitalWrite(6, LOW);//AMAR
+digitalWrite(5, LOW);//VERD
+digitalWrite(4,HIGH);//pedestre verd
+digitalWrite(3,LOW);//pedestre verm
+delay(5000); // Wait for 1000 millisecond(s)
+}
